@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#form-tarefa {
+    display: flex;
+    justify-content: center;
+    inline-size: 100vh;
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+    font-size: larger;
+
+}
+
+button {
+    padding: 8px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
